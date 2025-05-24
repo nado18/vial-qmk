@@ -2,6 +2,8 @@
 
 #define STM32_HSECLK 16000000
 
+#define SERIAL_USART_SPEED 921600
+
 /*
 #define DIRECT_PINS { \
   { B2, B10, C10, C11, B6 }, \
