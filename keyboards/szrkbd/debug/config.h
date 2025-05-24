@@ -1,6 +1,3 @@
 #pragma once
 
 #define STM32_HSECLK 16000000
-
-#define SERIAL_USART_SPEED 921600
-
