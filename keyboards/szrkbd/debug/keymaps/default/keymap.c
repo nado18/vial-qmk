@@ -1,4 +1,5 @@
 #include QMK_KEYBOARD_H
+#include "user_macros.h"
 
 const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT(
@@ -17,17 +18,3 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   )
 };
-
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    if (record->event.pressed) {
-        uint8_t row = record->event.key.row;
-        uint8_t col = record->event.key.col;
-        uprintf(
-                "[%c] Key pressed at row %u, col %u\n",
-                is_keyboard_master() ? 'm' : 's',
-                row,
-                col
-                );
-    }
-    return true;
-}
