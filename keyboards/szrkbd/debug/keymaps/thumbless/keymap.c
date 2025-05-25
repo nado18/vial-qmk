@@ -57,4 +57,3 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 };
-
