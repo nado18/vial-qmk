@@ -1,4 +1,5 @@
 #include QMK_KEYBOARD_H
+#include "user_macros.h"
 
 const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -45,8 +46,8 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [3] = LAYOUT(
     KC_TAB,  KC_GRV,  KC_PERC, KC_CIRC, KC_AMPR,
     KC_AT,   KC_UNDS, KC_HASH, KC_DLR,  KC_EQL,
-    KC_LABK, KC_LBRC, KC_LCBR, KC_LPRN, KC_BSLS,
-    /*^^^TODO^^^*/    KC_LCTL, KC_LWIN, KC_LALT,
+    UM_ANGL, UM_SQUA, UM_CURL, UM_PARN, KC_BSLS,
+                      KC_LCTL, KC_LWIN, KC_LALT,
 
     KC_PIPE, KC_EXLM, KC_QUES, KC_SCLN, KC_COLN,
     KC_DQUO, KC_BSPC, KC_ASTR, KC_QUOT, KC_ENT,
@@ -56,17 +57,3 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 };
-
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    if (record->event.pressed) {
-        uint8_t row = record->event.key.row;
-        uint8_t col = record->event.key.col;
-        uprintf(
-                "[%c] Key pressed at row %u, col %u\n",
-                is_keyboard_master() ? 'm' : 's',
-                row,
-                col
-                );
-    }
-    return true;
-}
