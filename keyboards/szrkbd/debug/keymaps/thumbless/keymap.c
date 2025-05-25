@@ -17,7 +17,7 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                 XXXXXXX,              XXXXXXX,              XXXXXXX,
 
     KC_Y,                 KC_U,                 KC_I,                 KC_O,                 KC_P,
-    KC_H,                 LT(1,KC_J),           LT(2,KC_K),           LT(3,KC_L),           KC_SPC,
+    KC_H,                 LT(3,KC_J),           LT(2,KC_K),           LT(1,KC_L),           KC_SPC,
     KC_N,                 MT(MOD_RALT,KC_M),    MT(MOD_RGUI,KC_COMM), MT(MOD_RCTL,KC_DOT),  KC_RSFT,
     XXXXXXX,              XXXXXXX,              XXXXXXX
   ),
