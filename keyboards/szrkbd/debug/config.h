@@ -1,3 +1,6 @@
 #pragma once
 
 #define STM32_HSECLK 16000000
+
+#define TAPPING_TERM 140
+#undef PERMISSIVE_HOLD
