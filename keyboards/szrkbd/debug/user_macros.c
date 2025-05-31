@@ -261,6 +261,15 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 	  tap_code(KC_LEFT);
 	  return false;
 	}
+
+	if( macos && !send_french_macos(keycode) ) {
+	  return false;
+	}
+
+	if( !macos && !send_french_windows(keycode) ) {
+	  return false;
+	}
+
   }
   return true;
 }
