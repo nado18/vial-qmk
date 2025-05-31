@@ -7,6 +7,23 @@ enum user_macros {
   UM_PARN
 };
 
+bool macos = false;
+bool process_detected_host_os_kb(os_variant_t detected_os) {
+  if (!process_detected_host_os_user(detected_os)) {
+	return false;
+  }
+
+  switch (detected_os) {
+  case OS_MACOS:
+  case OS_IOS:
+	macos = true;
+	break;
+  default:
+	break;
+  }
+  return true;
+}
+
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   if (record->event.pressed) {
 	uint8_t row = record->event.key.row;
