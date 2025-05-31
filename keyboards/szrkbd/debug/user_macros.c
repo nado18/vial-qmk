@@ -28,6 +28,97 @@ bool process_detected_host_os_kb(os_variant_t detected_os) {
   return true;
 }
 
+bool send_french_macos(uint16_t keycode) {
+  switch(keycode) {
+
+  case FR_ETRM: // ë
+    register_code(KC_LGUI);
+    tap_code(KC_U);
+    unregister_code(KC_LGUI);
+    tap_code(KC_E);
+    return false;
+
+  case FR_ECIR: // ê
+    register_code(KC_LGUI);
+    tap_code(KC_I);
+    unregister_code(KC_LGUI);
+    tap_code(KC_E);
+    return false;
+
+  case FR_EACU: // é
+    register_code(KC_LGUI);
+    tap_code(KC_E);
+    unregister_code(KC_LGUI);
+    tap_code(KC_E);
+    return false;
+
+  case FR_EGRA: // è
+    register_code(KC_LGUI);
+    tap_code(KC_GRAVE);
+    unregister_code(KC_LGUI);
+    tap_code(KC_E);
+    return false;
+
+  case FR_AGRA: // à
+    register_code(KC_LGUI);
+    tap_code(KC_GRAVE);
+    unregister_code(KC_LGUI);
+    tap_code(KC_A);
+    return false;
+
+  case FR_ACIR: // â
+    register_code(KC_LGUI);
+    tap_code(KC_I);
+    unregister_code(KC_LGUI);
+    tap_code(KC_A);
+    return false;
+
+  case FR_UCIR: // û
+    register_code(KC_LGUI);
+    tap_code(KC_I);
+    unregister_code(KC_LGUI);
+    tap_code(KC_U);
+    return false;
+
+  case FR_UGRA: // ù
+    register_code(KC_LGUI);
+    tap_code(KC_GRAVE);
+    unregister_code(KC_LGUI);
+    tap_code(KC_U);
+    return false;
+
+  case FR_ITRM: // ï
+    register_code(KC_LGUI);
+    tap_code(KC_U);
+    unregister_code(KC_LGUI);
+    tap_code(KC_I);
+    return false;
+
+  case FR_ICIR: // î
+    register_code(KC_LGUI);
+    tap_code(KC_I);
+    unregister_code(KC_LGUI);
+    tap_code(KC_I);
+    return false;
+
+  case FR_CCED: // ç
+    register_code(KC_LGUI);
+    tap_code(KC_C);
+    unregister_code(KC_LGUI);
+    return false;
+
+  case FR_OCIR: // ô
+    register_code(KC_LGUI);
+    tap_code(KC_I);
+    unregister_code(KC_LGUI);
+    tap_code(KC_O);
+    return false;
+
+  }
+
+  return true;
+}
+
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   if (record->event.pressed) {
 	uint8_t row = record->event.key.row;
