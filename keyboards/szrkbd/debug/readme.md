@@ -4,5 +4,4 @@
 
 # TODO
 - "handedness"
-- RGB
-- VIAL / VIA
+- uppercase French
