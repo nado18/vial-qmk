@@ -57,3 +57,22 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 };
+
+bool rgb_matrix_indicators_user(void) {
+    rgb_matrix_set_color_all(0, 0, 0);
+
+	const int max = 64;
+	static int index = 0;
+	static int count = 0;
+
+    rgb_matrix_set_color(index+0, max, 0, 0);
+    rgb_matrix_set_color(index+1, 0, max, 0);
+    rgb_matrix_set_color(index+2, 0, 0, max);
+
+	if( 0 == count++ % 20 ) {
+	  index = (index + 1) % 18;
+	}
+
+    rgb_matrix_update_pwm_buffers();
+    return false;
+}
