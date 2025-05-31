@@ -119,6 +119,122 @@ bool send_french_macos(uint16_t keycode) {
   return true;
 }
 
+bool send_french_windows(uint16_t keycode) {
+  switch(keycode) {
+
+  case FR_ETRM: // ë
+    register_code(KC_LALT);
+    tap_code(KC_P0);
+    tap_code(KC_P2);
+    tap_code(KC_P3);
+    tap_code(KC_P5);
+    unregister_code(KC_LALT);
+    return false;
+
+  case FR_ECIR: // ê
+    register_code(KC_LALT);
+    tap_code(KC_P0);
+    tap_code(KC_P2);
+    tap_code(KC_P3);
+    tap_code(KC_P4);
+    unregister_code(KC_LALT);
+    return false;
+
+  case FR_EACU: // é
+    register_code(KC_LALT);
+    tap_code(KC_P0);
+    tap_code(KC_P2);
+    tap_code(KC_P3);
+    tap_code(KC_P3);
+    unregister_code(KC_LALT);
+    return false;
+
+  case FR_EGRA: // è
+    register_code(KC_LALT);
+    tap_code(KC_P0);
+    tap_code(KC_P2);
+    tap_code(KC_P3);
+    tap_code(KC_P2);
+    unregister_code(KC_LALT);
+    return false;
+
+  case FR_AGRA: // à
+    register_code(KC_LALT);
+    tap_code(KC_P0);
+    tap_code(KC_P2);
+    tap_code(KC_P2);
+    tap_code(KC_P4);
+    unregister_code(KC_LALT);
+    return false;
+
+  case FR_ACIR: // â
+    register_code(KC_LALT);
+    tap_code(KC_P0);
+    tap_code(KC_P2);
+    tap_code(KC_P2);
+    tap_code(KC_P6);
+    unregister_code(KC_LALT);
+    return false;
+
+  case FR_UCIR: // û
+    register_code(KC_LALT);
+    tap_code(KC_P0);
+    tap_code(KC_P2);
+    tap_code(KC_P5);
+    tap_code(KC_P1);
+    unregister_code(KC_LALT);
+    return false;
+
+  case FR_UGRA: // ù
+    register_code(KC_LALT);
+    tap_code(KC_P0);
+    tap_code(KC_P2);
+    tap_code(KC_P4);
+    tap_code(KC_P9);
+    unregister_code(KC_LALT);
+    return false;
+
+  case FR_ITRM: // ï
+    register_code(KC_LALT);
+    tap_code(KC_P0);
+    tap_code(KC_P2);
+    tap_code(KC_P3);
+    tap_code(KC_P9);
+    unregister_code(KC_LALT);
+    return false;
+
+  case FR_ICIR: // î
+    register_code(KC_LALT);
+    tap_code(KC_P0);
+    tap_code(KC_P2);
+    tap_code(KC_P3);
+    tap_code(KC_P8);
+    unregister_code(KC_LALT);
+    return false;
+
+  case FR_CCED: // ç
+    register_code(KC_LALT);
+    tap_code(KC_P0);
+    tap_code(KC_P2);
+    tap_code(KC_P3);
+    tap_code(KC_P1);
+    unregister_code(KC_LALT);
+    return false;
+
+  case FR_OCIR: // ô
+    register_code(KC_LALT);
+    tap_code(KC_P0);
+    tap_code(KC_P2);
+    tap_code(KC_P4);
+    tap_code(KC_P4);
+    unregister_code(KC_LALT);
+    return false;
+
+  }
+
+  return true;
+}
+
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   if (record->event.pressed) {
 	uint8_t row = record->event.key.row;
