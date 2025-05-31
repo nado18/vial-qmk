@@ -6,12 +6,12 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [0] = LAYOUT(
     KC_Q,                 KC_W,                 KC_E,                 KC_R,                 KC_T,
-    KC_A,                 LT(1,KC_S),           LT(2,KC_D),           LT(3,KC_F),           KC_G,
+    LT(4,KC_A),           LT(1,KC_S),           LT(2,KC_D),           LT(3,KC_F),           KC_G,
     MT(MOD_LSFT,KC_Z),    MT(MOD_LCTL,KC_X),    MT(MOD_LGUI,KC_C),    MT(MOD_LALT,KC_V),    KC_B,
                                                 XXXXXXX,              XXXXXXX,              XXXXXXX,
 
     KC_Y,                 KC_U,                 KC_I,                 KC_O,                 KC_P,
-    KC_H,                 LT(3,KC_J),           LT(2,KC_K),           LT(1,KC_L),           KC_SPC,
+    KC_H,                 LT(3,KC_J),           LT(2,KC_K),           LT(1,KC_L),           LT(4,KC_SPC),
     KC_N,                 MT(MOD_RALT,KC_M),    MT(MOD_RGUI,KC_COMM), MT(MOD_RCTL,KC_DOT),  KC_RSFT,
     XXXXXXX,              XXXXXXX,              XXXXXXX
   ),
