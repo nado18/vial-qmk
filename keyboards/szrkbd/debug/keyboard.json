@@ -23,7 +23,7 @@
   },
   "rgb_matrix": {
     "driver": "ws2812",
-    "center_point": [2, 1],
+    "center_point": [0, 1],
     "sleep": true,
     "default": {
       "hue": 180,
