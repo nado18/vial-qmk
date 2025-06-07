@@ -23,6 +23,10 @@
   },
   "rgb_matrix": {
     "driver": "ws2812",
+    "default": {
+      "hue": 180,
+      "animation": "solid_reactive_simple"
+    }
     "animations": {
       "alphas_mods": true,
       "gradient_up_down": true,
