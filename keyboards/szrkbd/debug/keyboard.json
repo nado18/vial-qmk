@@ -23,6 +23,7 @@
   },
   "rgb_matrix": {
     "driver": "ws2812",
+    "sleep": true,
     "default": {
       "hue": 180,
       "animation": "solid_reactive_simple"
