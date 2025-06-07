@@ -36,6 +36,7 @@
       "pixel_flow": true,
       "flower_blooming": true,
     },
+    "split_count": [18, 18],
     "layout": [
 
       { "matrix": [0, 4], "y": 0, "x": 0, "flags": 4 },
@@ -59,6 +60,29 @@
       { "matrix": [3, 2], "y": 3, "x": 2, "flags": 4 },
       { "matrix": [3, 1], "y": 3, "x": 3, "flags": 4 },
       { "matrix": [3, 0], "y": 3, "x": 4, "flags": 4 },
+
+
+      { "matrix": [4, 4], "y": 0, "x": 5, "flags": 4 },
+      { "matrix": [4, 3], "y": 0, "x": 6, "flags": 4 },
+      { "matrix": [4, 2], "y": 0, "x": 7, "flags": 4 },
+      { "matrix": [4, 1], "y": 0, "x": 8, "flags": 4 },
+      { "matrix": [4, 0], "y": 0, "x": 9, "flags": 4 },
+
+      { "matrix": [5, 4], "y": 1, "x": 5, "flags": 4 },
+      { "matrix": [5, 3], "y": 1, "x": 6, "flags": 4 },
+      { "matrix": [5, 2], "y": 1, "x": 7, "flags": 4 },
+      { "matrix": [5, 1], "y": 1, "x": 8, "flags": 4 },
+      { "matrix": [5, 0], "y": 1, "x": 9, "flags": 4 },
+
+      { "matrix": [6, 4], "y": 2, "x": 5, "flags": 4 },
+      { "matrix": [6, 3], "y": 2, "x": 6, "flags": 4 },
+      { "matrix": [6, 2], "y": 2, "x": 7, "flags": 4 },
+      { "matrix": [6, 1], "y": 2, "x": 8, "flags": 4 },
+      { "matrix": [6, 0], "y": 2, "x": 9, "flags": 4 },
+
+      { "matrix": [7, 2], "y": 3, "x": 5, "flags": 4 },
+      { "matrix": [7, 1], "y": 3, "x": 6, "flags": 4 },
+      { "matrix": [7, 0], "y": 3, "x": 7, "flags": 4 },
 
     ]
   },
