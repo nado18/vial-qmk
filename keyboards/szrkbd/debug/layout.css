@@ -1,0 +1,39 @@
+
+svg {
+   width: 198mm;
+   height: 72mm;
+}
+
+text {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1mm;
+  text-anchor: middle;
+  dominant-baseline: central;
+  ztransform: translate(18mm, 18mm);
+}
+
+rect:nth-child(1) {
+  rx: 1mm;
+  stroke: #888;
+  stroke-width: .1mm;
+}
+rect:nth-child(2) {
+  rx: .75mm;
+  fill: rgba(255,255,255,.75);
+}
+
+.KC rect:nth-child(1) { fill: #aaa }
+.LT rect:nth-child(1) { fill: #cfc }
+.MT rect:nth-child(1) { fill: #ccf }
+.FR rect:nth-child(1) { fill: #cff }
+.UM rect:nth-child(1) { fill: #ffc }
+.XX rect:nth-child(1) { fill: #eee }
+.MS rect:nth-child(1) { fill: #f8e }
+.DM rect:nth-child(1) { fill: #f95 }
+.RM rect:nth-child(1) { fill: #ff0 }
+
+.QK rect:nth-child(1) { fill: #f88 }
+
+.XX text {
+	fill: rgba(0,0,0,0);
+}
