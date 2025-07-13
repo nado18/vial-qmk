@@ -20,9 +20,11 @@ bool process_detected_host_os_kb(os_variant_t detected_os) {
   switch (detected_os) {
   case OS_MACOS:
   case OS_IOS:
+	uprintf(">> OS Detection: macOS or iOS\n");
 	macos = true;
 	break;
   default:
+	uprintf(">> OS Detection: NOT macOS or iOS\n");
 	break;
   }
   return true;
