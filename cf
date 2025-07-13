@@ -1,0 +1,6 @@
+#!/bin/bash -xe
+
+qmk clean
+qmk compile -kb szrkbd/debug -km default
+
+dfu-util -a 0 -s 0x08000000:leave -D szrkbd_debug_default.bin
