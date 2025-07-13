@@ -11,3 +11,4 @@
   - previous/next tab in browser
   - navigate back
   - ctrl-alt-delete
+- have OS switching keys if auto-detection's unreliable
