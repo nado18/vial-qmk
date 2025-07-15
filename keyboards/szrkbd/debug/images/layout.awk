@@ -79,7 +79,7 @@ function key(s) {
 	}
 }
 
-/LAYOUT/ {
+/=[[:space:]]*LAYOUT/ {
 	split($0, m, /[\[\]]/)
 	x = 0
 	y = 0
@@ -87,7 +87,6 @@ function key(s) {
 	print  "Writing " svg
 	printf("<h1>%s</h1>", m[2]) >> INDEX
 	printf("<img width='800px' src='%s'>\n", svg) >> INDEX
-
 
 	printf("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 %d %d'>\n", (1+gridW) * capW, (1+gridH) * capH) > svg
     print ("  <style>") >> svg
@@ -100,8 +99,8 @@ function key(s) {
 	svg = 0
 }
 
-/(,.*){5,}/ {
-	if( 5==NF && 0!=svg ) {
+/(,.*){10,}/ {
+	if( 10==NF && 0!=svg ) {
 		gsub(/,([[:space:]])/, " ")
 		gsub(/,$/, "")
 
@@ -110,5 +109,10 @@ function key(s) {
 		key($3)
 		key($4)
 		key($5)
+		key($6)
+		key($7)
+		key($8)
+		key($9)
+		key($10)
 	}
 }
