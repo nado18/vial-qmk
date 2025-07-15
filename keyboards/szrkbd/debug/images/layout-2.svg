@@ -1,0 +1,223 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 198 72'>
+  <style>
+
+svg {
+   width: 198mm;
+   height: 72mm;
+}
+
+text {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1mm;
+  text-anchor: middle;
+  dominant-baseline: central;
+  ztransform: translate(18mm, 18mm);
+}
+
+rect:nth-child(1) {
+  rx: 1mm;
+  stroke: #888;
+  stroke-width: .1mm;
+}
+rect:nth-child(2) {
+  rx: .75mm;
+  fill: rgba(255,255,255,.75);
+}
+
+.KC rect:nth-child(1) { fill: #aaa }
+.LT rect:nth-child(1) { fill: #cfc }
+.MT rect:nth-child(1) { fill: #ccf }
+.FR rect:nth-child(1) { fill: #cff }
+.UM rect:nth-child(1) { fill: #ffc }
+.XX rect:nth-child(1) { fill: #eee }
+.MS rect:nth-child(1) { fill: #f8e }
+.DM rect:nth-child(1) { fill: #f95 }
+.RM rect:nth-child(1) { fill: #ff0 }
+
+.QK rect:nth-child(1) { fill: #f88 }
+
+.XX text {
+	fill: rgba(0,0,0,0);
+}
+  </style>
+  <g transform='translate(9, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>F1</text>
+  </g>
+
+  <g transform='translate(27, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>F2</text>
+  </g>
+
+  <g transform='translate(45, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>F3</text>
+  </g>
+
+  <g transform='translate(63, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>F4</text>
+  </g>
+
+  <g transform='translate(81, 9)' class='DM'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>RSTP</text>
+  </g>
+
+  <g transform='translate(99, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>ESC</text>
+  </g>
+
+  <g transform='translate(117, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>7</text>
+  </g>
+
+  <g transform='translate(135, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>8</text>
+  </g>
+
+  <g transform='translate(153, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>9</text>
+  </g>
+
+  <g transform='translate(171, 9)' class='DM'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>REC1</text>
+  </g>
+
+  <g transform='translate(9, 27)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>F5</text>
+  </g>
+
+  <g transform='translate(27, 27)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>F6</text>
+  </g>
+
+  <g transform='translate(45, 27)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>F7</text>
+  </g>
+
+  <g transform='translate(63, 27)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>F8</text>
+  </g>
+
+  <g transform='translate(81, 27)' class='DM'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>PLY1</text>
+  </g>
+
+  <g transform='translate(99, 27)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>DOT</text>
+  </g>
+
+  <g transform='translate(117, 27)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>4</text>
+  </g>
+
+  <g transform='translate(135, 27)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>5</text>
+  </g>
+
+  <g transform='translate(153, 27)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>6</text>
+  </g>
+
+  <g transform='translate(171, 27)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>SPC</text>
+  </g>
+
+  <g transform='translate(9, 45)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>F9</text>
+  </g>
+
+  <g transform='translate(27, 45)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>F10</text>
+  </g>
+
+  <g transform='translate(45, 45)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>F11</text>
+  </g>
+
+  <g transform='translate(63, 45)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>F12</text>
+  </g>
+
+  <g transform='translate(81, 45)' class='XX'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>XXXXXXX</text>
+  </g>
+
+  <g transform='translate(99, 45)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>0</text>
+  </g>
+
+  <g transform='translate(117, 45)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>1</text>
+  </g>
+
+  <g transform='translate(135, 45)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>2</text>
+  </g>
+
+  <g transform='translate(153, 45)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>3</text>
+  </g>
+
+  <g transform='translate(171, 45)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>RSFT</text>
+  </g>
+
+</svg>

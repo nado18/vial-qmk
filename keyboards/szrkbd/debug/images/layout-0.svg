@@ -1,0 +1,238 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 198 72'>
+  <style>
+
+svg {
+   width: 198mm;
+   height: 72mm;
+}
+
+text {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1mm;
+  text-anchor: middle;
+  dominant-baseline: central;
+  ztransform: translate(18mm, 18mm);
+}
+
+rect:nth-child(1) {
+  rx: 1mm;
+  stroke: #888;
+  stroke-width: .1mm;
+}
+rect:nth-child(2) {
+  rx: .75mm;
+  fill: rgba(255,255,255,.75);
+}
+
+.KC rect:nth-child(1) { fill: #aaa }
+.LT rect:nth-child(1) { fill: #cfc }
+.MT rect:nth-child(1) { fill: #ccf }
+.FR rect:nth-child(1) { fill: #cff }
+.UM rect:nth-child(1) { fill: #ffc }
+.XX rect:nth-child(1) { fill: #eee }
+.MS rect:nth-child(1) { fill: #f8e }
+.DM rect:nth-child(1) { fill: #f95 }
+.RM rect:nth-child(1) { fill: #ff0 }
+
+.QK rect:nth-child(1) { fill: #f88 }
+
+.XX text {
+	fill: rgba(0,0,0,0);
+}
+  </style>
+  <g transform='translate(9, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>Q</text>
+  </g>
+
+  <g transform='translate(27, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>W</text>
+  </g>
+
+  <g transform='translate(45, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>E</text>
+  </g>
+
+  <g transform='translate(63, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>R</text>
+  </g>
+
+  <g transform='translate(81, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>T</text>
+  </g>
+
+  <g transform='translate(99, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>Y</text>
+  </g>
+
+  <g transform='translate(117, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>U</text>
+  </g>
+
+  <g transform='translate(135, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>I</text>
+  </g>
+
+  <g transform='translate(153, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>O</text>
+  </g>
+
+  <g transform='translate(171, 9)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>P</text>
+  </g>
+
+  <g transform='translate(9, 27)' class='LT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>A</text>
+    <text x='9.000000' y='12.000000'>4</text>
+  </g>
+
+  <g transform='translate(27, 27)' class='LT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>S</text>
+    <text x='9.000000' y='12.000000'>1</text>
+  </g>
+
+  <g transform='translate(45, 27)' class='LT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>D</text>
+    <text x='9.000000' y='12.000000'>2</text>
+  </g>
+
+  <g transform='translate(63, 27)' class='LT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>F</text>
+    <text x='9.000000' y='12.000000'>3</text>
+  </g>
+
+  <g transform='translate(81, 27)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>G</text>
+  </g>
+
+  <g transform='translate(99, 27)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>H</text>
+  </g>
+
+  <g transform='translate(117, 27)' class='LT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>J</text>
+    <text x='9.000000' y='12.000000'>3</text>
+  </g>
+
+  <g transform='translate(135, 27)' class='LT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>K</text>
+    <text x='9.000000' y='12.000000'>2</text>
+  </g>
+
+  <g transform='translate(153, 27)' class='LT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>L</text>
+    <text x='9.000000' y='12.000000'>1</text>
+  </g>
+
+  <g transform='translate(171, 27)' class='LT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>SPC</text>
+    <text x='9.000000' y='12.000000'>4</text>
+  </g>
+
+  <g transform='translate(9, 45)' class='MT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>Z</text>
+    <text x='9.000000' y='12.000000'>LSFT</text>
+  </g>
+
+  <g transform='translate(27, 45)' class='MT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>X</text>
+    <text x='9.000000' y='12.000000'>LCTL</text>
+  </g>
+
+  <g transform='translate(45, 45)' class='MT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>C</text>
+    <text x='9.000000' y='12.000000'>LGUI</text>
+  </g>
+
+  <g transform='translate(63, 45)' class='MT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>V</text>
+    <text x='9.000000' y='12.000000'>LALT</text>
+  </g>
+
+  <g transform='translate(81, 45)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>B</text>
+  </g>
+
+  <g transform='translate(99, 45)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>N</text>
+  </g>
+
+  <g transform='translate(117, 45)' class='MT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>M</text>
+    <text x='9.000000' y='12.000000'>RALT</text>
+  </g>
+
+  <g transform='translate(135, 45)' class='MT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>COMM</text>
+    <text x='9.000000' y='12.000000'>RGUI</text>
+  </g>
+
+  <g transform='translate(153, 45)' class='MT'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='6.000000'>DOT</text>
+    <text x='9.000000' y='12.000000'>RCTL</text>
+  </g>
+
+  <g transform='translate(171, 45)' class='KC'>
+    <rect x='0.900000' y='0.900000' width='16.200000' height='16.200000'/>
+    <rect x='1.800000' y='1.800000' width='14.400000' height='14.400000'/>
+    <text x='9.000000' y='9.000000'>RSFT</text>
+  </g>
+
+</svg>
